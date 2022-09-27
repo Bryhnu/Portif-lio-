@@ -1,0 +1,166 @@
+/*background e cor da fonte*/
+body{
+  background-image: linear-gradient(to left, #121212, rgba(138, 126, 126, 0.386), black);
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+}
+
+/*background que usei pra deixar a parte da navbar totalmente preta*/
+header{
+  background-color: #121212;
+}
+
+/*localização da minha navbar*/
+nav{
+  display: flex;
+  justify-content: end;
+}
+
+
+/*Estilização dos meus links*/
+nav a{
+  font-size: 25px;
+  text-decoration: none;
+  padding: 20px;
+  color: white;
+}
+
+
+nav a:hover{
+  background-color: #121212;
+}
+
+
+
+
+
+
+
+/*Flexbox para centralizar o texto e a imagem*/
+.container{
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.eu{
+  text-indent: 20px;
+  margin-top: 45px;
+  width: 650px;
+  height: 500px;
+  background-color: black;
+}
+
+                                           /* Estilização do h1 e p*/
+.eu p{
+  margin-top: 50px;
+}
+
+/*posição da minha imagem*/
+.eu img{
+  height: 430px;
+  width: 430px;
+  margin-left: 20%;
+  margin-top: 19px;
+  border: 2px solid rgb(60, 60, 60);
+  border-radius: 35%;
+}
+  
+
+
+
+
+
+
+
+
+/*Hobbies*/
+.container2{
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hobbie{
+  text-indent: 20px;
+  margin-top: 45px;
+  width: 650px;
+  height: 500px;
+  background-color: black;
+  border-radius: 10%;
+  list-style: none;
+}
+
+/*Estilização da escrita*/
+.hobbie h2{
+
+  font-size: 26px;
+}
+
+
+.hobbie h3{
+
+  font-size: 15px;
+  padding-left: 30px;
+}
+
+.hobbie li{
+
+  font-size: 15px;
+  padding: 15px;
+}
+
+
+
+ 
+
+
+
+
+
+
+/* Posição do background*/
+.container3{
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* estilização do background*/
+.central{
+  font-size: 25px;
+  margin-top: 100px;
+  width: 550px;
+  height: 550px;
+  background-color: black;
+  border-radius: 20%;
+}
+
+/* Posição do form*/
+.form{
+  padding-left: 30%;
+}
+
+/* Espaçamento */
+.form div + div{
+  margin-top: 1em;
+}
+
+/*Alinhamento */
+label{
+  display: block;
+}
+
+/*Tamanho da caixa de texto*/
+input, textarea{
+  height: 50%;
+  width: 50%;
+}
+
+
+
+
+
