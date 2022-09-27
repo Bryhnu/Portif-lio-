@@ -1,6 +1,6 @@
 /*background e cor da fonte*/
 body{
-  background-image: linear-gradient(to left, #121212, rgba(138, 126, 126, 0.386), black);
+  background-image: linear-gradient(to left, BLACK, rgba(53, 51, 51, 0.386), BLACK);
   color: white;
   font-family: 'Roboto Mono', monospace;
 }
@@ -27,13 +27,8 @@ nav a{
 
 
 nav a:hover{
-  background-color: #121212;
+  background-color: rgba(138, 126, 126, 0.386);
 }
-
-
-
-
-
 
 
 /*Flexbox para centralizar o texto e a imagem*/
@@ -49,7 +44,7 @@ nav a:hover{
   margin-top: 45px;
   width: 650px;
   height: 500px;
-  background-color: black;
+  background-color: #121212;
 }
 
                                            /* Estilização do h1 e p*/
@@ -68,13 +63,6 @@ nav a:hover{
 }
   
 
-
-
-
-
-
-
-
 /*Hobbies*/
 .container2{
   height: 500px;
@@ -88,7 +76,7 @@ nav a:hover{
   margin-top: 45px;
   width: 650px;
   height: 500px;
-  background-color: black;
+  background-color: #121212;
   border-radius: 10%;
   list-style: none;
 }
@@ -113,14 +101,6 @@ nav a:hover{
 }
 
 
-
- 
-
-
-
-
-
-
 /* Posição do background*/
 .container3{
   height: 500px;
@@ -132,11 +112,11 @@ nav a:hover{
 /* estilização do background*/
 .central{
   font-size: 25px;
-  margin-top: 100px;
-  width: 550px;
-  height: 550px;
-  background-color: black;
-  border-radius: 20%;
+  margin-top: 20px;
+  width: 400px;
+  height: 480px;
+  background-color: #121212;
+  border-radius: 10%;
 }
 
 /* Posição do form*/
@@ -151,13 +131,18 @@ nav a:hover{
 
 /*Alinhamento */
 label{
-  display: block;
+   display: flex;
 }
 
 /*Tamanho da caixa de texto*/
 input, textarea{
   height: 50%;
   width: 50%;
+}
+
+h4{
+  margin-top: 10px;
+  padding-left: 45px;
 }
 
 
